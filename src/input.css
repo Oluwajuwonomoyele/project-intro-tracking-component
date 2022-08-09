@@ -9,3 +9,43 @@
         @apply font-barlow text-[18px]
     }
 }
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    background-color: hsl(207, 33%, 95%);
+    width: 50%;
+    height: 50vh;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    border-bottom-left-radius: 30%;
+}
+
+@media screen and (min-width: 375px) {
+    header::after {
+        height: 53vh;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    header::after {
+        height: 57vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header::after {
+        height: 80vh;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header::after {
+        height: 53vh;
+    }
+}

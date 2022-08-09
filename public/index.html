@@ -8,8 +8,65 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <title>Frontend Mentor | Project tracking intro component</title>
 </head>
-<body>
-    <h1 class="bg-primary">hello</h1>
+<body class="relative lg:overflow-hidden">
+    <header class="relative">
+        <div class="container mx-auto p-6 xs:p-8 lg:px-16 flex items-center justify-between">
+            <div>
+                <img src="./images/logo.svg" alt="logo">
+            </div>
     
+            <nav class="hidden lg:block">
+                <ul class="uppercase font-barlow-condensed flex items-center gap-12 text-xl">
+                    <li class="text-very-dark-blue font-bold lg:px-4 transition-all ease-linear duration-300 hover:underline cursor-pointer">products</li>
+                    <li class="text-very-dark-blue font-bold lg:px-4 transition-all ease-linear duration-300 cursor-pointer hover:underline">features</li>
+                    <li class="text-very-dark-blue font-bold lg:px-4 transition-all ease-linear duration-300 cursor-pointer hover:underline">pricing</li>
+                    <div class="w-full md:w-3/4 lg:w-[8px] bg-grayish-blue h-[1px] lg:h-[8px] lg:rounded-full md:mx-auto"></div>
+                    <li class="font-bold text-grayish-blue lg:px-4 transition-all ease-linear duration-300 cursor-pointer hover:underline">login</li>
+                </ul>
+            </nav>
+
+            <div class="cursor-pointer lg:hidden" id="menu-btn">
+                <img src="./images/icon-hamburger.svg" alt="hamburger" id="toggle">
+            </div>
+
+            <div class="hidden bg-white absolute inset-0 w-[90%] mx-auto h-72 mt-20 px-4 py-6 z-50 shadow-xl flex-col items-center justify-center gap-6 uppercase font-barlow-condensed transition-all ease-linear duration-300" id="menu">
+                <p class="text-very-dark-blue font-bold">products</p>
+                <p class="text-very-dark-blue font-bold">features</p>
+                <p class="text-very-dark-blue font-bold">pricing</p>
+                <div class="w-full md:w-3/4 bg-grayish-blue h-[1px] md:mx-auto"></div>
+                <p class="font-bold text-grayish-blue">login</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container mx-auto px-4 xs:px-8 md:pb-8 lg:pl-16 lg:pr-0 pt-16 flex flex-col-reverse lg:flex-row lg:items-center gap-28 lg:gap-0 overflow-hidden lg:overflow-visible lg:h-[80vh]">
+            <div class="flex flex-col gap-4 lg:gap-8 items-start">
+                <h3 class="uppercase text-base text-grayish-blue tracking-[2px] sm:tracking-[3px]"><span class="bg-very-dark-blue p-1 px-2 text-white rounded-full xs:mr-3 tracking-normal">new</span> monograph dashboard</h3>
+
+                <h1 class="text-very-dark-blue text-5xl lg:text-6xl uppercase font-barlow-condensed font-bold">powerful insights into your team</h1>
+
+                <p class="text-dark-grayish-blue lg:text-xl">Project planning and time tracking<br class="hidden lg:block"/> for agile teams</p>
+
+                <div class="flex items-center gap-2">
+                    <a href="#" class="font-barlow-condensed bg-primary text-white py-1 px-2 sm:py-2 sm:px-6 rounded-md uppercase cursor-pointer hover:opacity-75 transition-opacity duration-300 ease-linear">schedule a demo</a>
+                    <p class="font-barlow-condensed text-grayish-blue py-1 px-2 sm:py-2 sm:px-6 rounded-md uppercase tracking-wider">to see a preview</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="./images/illustration-devices.svg" alt="hero-img" class="scale-150 translate-x-[4rem] md:scale-125 md:translate-x-[6rem] lg:translate-x-[14rem]">
+            </div>
+        </div>
+    </main>
+
+    <footer class="container mx-auto text-center px-2 py-4 sm:px-4">
+        <p class="">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-primary">Frontend Mentor</a>. 
+          Coded by <a href="#" class="animate-pulse">Olutomisin Oluwajuwon</a>.
+        </p>
+      </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
