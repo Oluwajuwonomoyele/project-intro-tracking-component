@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Site Preview](./screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/project-tracking-intro-page-using-tailwindcss-SAXZhFuhXM)
+- Live Site URL: [Live Site](https://oo-project-tracking-intro-page.netlify.app/)
 
 ## My process
 
@@ -39,20 +39,17 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Tailwindcss](https://tailwindcss.com/) - CSS framework
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [w3schools](https://www.w3schools.com)
+- [StackOverflow](https://www.stackoverflow.com)
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Olutomisin Oluwajuwon](https://github.com/Oluwajuwonomoyele?tab=repositories)
+- Frontend Mentor - [@Oluwajuwonomoyele](https://www.frontendmentor.io/profile/Oluwajuwonomoyele)
+- Twitter - [@OlutomisinJuwon](https://twitter.com/OlutomisinJuwon)
